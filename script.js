@@ -16,3 +16,6 @@ chatForm.addEventListener("submit", (e) => {
   // Show message
   chatWindow.innerHTML = "Connect to the OpenAI API for a response!";
 });
+
+
+// hello
