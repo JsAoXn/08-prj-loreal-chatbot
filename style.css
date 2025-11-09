@@ -22,6 +22,7 @@ body {
 .site-header {
   text-align: center;
   padding-top: 50px;
+
 }
 
 .site-title {
@@ -44,6 +45,7 @@ body {
   overflow-y: auto;
   background: #fafafa;
   white-space: pre-line;
+  position: relative;
 }
 
 /* messages */
@@ -92,6 +94,7 @@ body {
   justify-content: center;
   cursor: pointer;
   transition: background 0.3s;
+  text
 }
 
 .chat-form button .material-icons {
@@ -140,4 +143,34 @@ body {
 
 .site-footer a:hover {
   color: #666666;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+#assistant_text {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+  max-width: 70%;
+
+  width: fit-content;
+
+}
+
+#client_text {
+  background-color: black;
+  color: white;
+  text-align: right;
+  width: fit-content;
+  border-radius: 15px;
+  padding: 10px 15px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
