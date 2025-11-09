@@ -18,6 +18,7 @@ const workerUrl = "https://hidden-bar-6e99.jacksonr1019.workers.dev/"
 
 /* Handle form submit */
 chatForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
   chatWindow.textContent = 'Thinking...';
   messages.push({ role: 'user', content: userInput.value });
 
